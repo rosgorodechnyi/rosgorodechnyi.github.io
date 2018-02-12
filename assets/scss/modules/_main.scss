@@ -1,0 +1,195 @@
+.heading{
+  padding: 1rem 3rem;
+  background-color: #dfe1e8;
+  h2{
+    @include font(400, 50, 60);
+    color: #2a2a2a;
+    letter-spacing: 1px;
+  }
+}
+.section{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  border-bottom: 1px solid #dfe1e8;
+}
+.col{
+  flex: 1 0 50%;
+  padding: 1rem 3rem;
+  + .col{
+    background-color: #f7f7f9;
+  }
+  h3{
+    margin: 0 0 15px;
+    @include font(400, 30, 40);
+    color: #2a2a2a;
+  }
+  h4{
+    margin: 0 0 5px;
+    @include font(400, 20, 30);
+    color: #2a2a2a;
+  }
+  .bad-code-title{
+    color: #C60013;
+  }
+  .good-code-title{
+    color: #08A100;
+  }
+  iframe{
+    margin: 0 0 15px;
+  }
+  p{
+    margin: 0 0 10px;
+    @include font(400, 18, 26);
+    color: #5a5a5a;
+  }
+  b{
+    font-weight: 700;
+    color: #2a2a2a;
+  }
+  ol{
+    padding: 0 0 0 30px;
+    li{
+      margin: 0 0 10px;
+      @include font(400, 18, 26);
+      color: #5a5a5a;
+      list-style: decimal;
+    }
+  }
+}
+
+.CodeMirror {
+  font-family: monospace;
+  height: 300px;
+  color: #000
+}
+
+.CodeMirror pre {
+  padding: 0 4px
+}
+.CodeMirror {
+  position: relative;
+  background: #fff
+}
+
+.CodeMirror pre {
+  border-radius: 0;
+  border-width: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+  line-height: inherit;
+  color: inherit;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-variant-ligatures: none;
+  font-variant-ligatures: none
+}
+
+.CodeMirror-wrap pre {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal
+}
+
+.cm-s-default .cm-header {
+  color: blue
+}
+
+.cm-s-default .cm-quote {
+  color: #36ac3b
+}
+
+.cm-negative {
+  color: #ff4d4d
+}
+
+.cm-positive {
+  color: #36ac3b
+}
+
+.cm-header, .cm-strong {
+  font-weight: bold
+}
+
+.cm-em {
+  font-style: italic
+}
+
+.cm-link {
+  text-decoration: underline
+}
+
+.cm-strikethrough {
+  text-decoration: line-through
+}
+
+.cm-s-default .cm-keyword {
+  color: #a151d2
+}
+
+.cm-s-default .cm-atom {
+  color: #219
+}
+
+.cm-s-default .cm-number {
+  color: #ed5c65
+}
+
+.cm-s-default .cm-def {
+  color: #f18c16
+}
+
+.cm-s-default .cm-variable, .cm-s-default .cm-variable-2 {
+  color: #2795ee
+}
+
+.cm-s-default .cm-variable-3 {
+  color: #249d7f
+}
+
+.cm-s-default .cm-comment {
+  color: #a0a1a7
+}
+
+.cm-s-default .cm-string {
+  color: #249d7f
+}
+
+.cm-s-default .cm-string-2 {
+  color: #ed5c65
+}
+
+.cm-s-default .cm-meta {
+  color: #39464e
+}
+
+.cm-s-default .cm-builtin, .cm-s-default .cm-qualifier {
+  color: #f18c16
+}
+
+.cm-s-default .cm-tag {
+  color: #2795ee
+}
+
+.cm-s-default .cm-bracket {
+  color: #39464e
+}
+
+.cm-s-default .cm-attribute {
+  color: #f18c16
+}
+
+.cm-s-default .cm-hr {
+  color: #999
+}
+
+.cm-s-default .cm-link {
+  color: #2795ee
+}
